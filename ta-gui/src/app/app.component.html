@@ -1,21 +1,10 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<h1>
+  Teaching Assistant
+</h1>
 
-<style>
-  :host {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 14px;
-    color: #333;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+<h2>
+  Alunos
+</h2>
 
   h1,
   h2,
@@ -472,6 +461,21 @@
   </svg>
 
 </div>
+
+<table>
+  <tr>
+     <td><label>Nome </label></td>
+     <td><input [(ngModel)]="aluno.nome" ></td>
+  </tr>
+  <tr>
+     <td><label>CPF </label></td>
+     <td><input [(ngModel)]="aluno.cpf" ></td>
+  </tr>
+  <tr>
+     <td><label>e-mail </label></td>
+     <td><input [(ngModel)]="aluno.email" ></td>
+  </tr>
+  </table>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
