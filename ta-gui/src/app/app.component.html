@@ -1,12 +1,14 @@
-<html (mousemove)="onMove()">
+<html>
+
 <h1>
   Teaching Assistant
 </h1>
 
-<h2>
-  Alunos
-</h2>
-
+<nav>
+    <a routerLink="/alunos">Alunos</a>
+    <a routerLink="/metas">Metas</a>
+</nav>
+<router-outlet></router-outlet>
 <table>
 <tr>
    <td><label>Nome </label></td>
